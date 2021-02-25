@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/webfonts/css/all.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <nav>
+        <div class="menu" id="menuBtn" onclick="sideMenu()">
+            <i class="fas fa-bars fa-2x hamb"></i>
+            <i class="fas fa-times fa-2x close"></i>
+        </div>
+        <ul>
+            <li class="myUser" onclick="showUserSettings()">David Ower</li>
+            <li class="settings" onclick="showSettings()">Settings</li>
+            <li class="comments" onclick="turnOffComments()">
+                Comments
+                <div class="toggle">
+                    <div class="switch"></div>
+                </div>
+            </li>
+            <li>Logout</li>
+        </ul>
+    </nav>
+    <div class="settingsDropDown">
+            <ul class="dropDownList">
+                <li>
+                    Settings
+                </li>
+                <li>
+                    Users
+                </li>
+                <li>
+                    Styles
+                </li>
+                <li>
+                    Support
+                </li>
+                <li>
+                    About
+                </li>
+            </ul>
+    </div>
+    <div class="userDropDown">
+        <ul class="dropDownList">
+            <li>
+                Edit Profile
+            </li>
+            <li>
+                Change Password
+            </li>
+            <li>
+                Logout
+            </li>
+        </ul>
+    </div>  
+    <aside>
+        <img src="./assets/images/Logo-colored.png" alt="">
+        <ul class="mainMenu">
+            <li>
+                <i class="fas fa-book fa-2x menuIcon"></i>
+                <p>Our Story</p>
+            </li>
+            <li>
+                <i class="fas fa-heart fa-2x menuIcon"></i>
+                <p>Purpose & Values</p>
+            </li>
+            <li>
+                <i class="fas fa-sort-amount-up-alt fa-2x menuIcon"></i>
+                <p>Success</p>
+            </li>
+            <li>
+                <i class="fas fa-map-marked-alt fa-2x menuIcon"></i>
+                <p>Roadmaps</p>
+            </li>
+            <li>
+                <i class="fas fa-running fa-2x menuIcon"></i>
+                <p>Sprints</p>
+            </li>
+            <li>
+                <i class="fas fa-money-check-alt fa-2x menuIcon"></i>
+                <p>Investments</p>
+            </li>
+            <li>
+                <i class="fas fa-network-wired fa-2x menuIcon"></i>
+                <p>Innovation</p>
+            </li>
+            <li>
+                <i class="fas fa-users fa-2x menuIcon"></i>
+                <p>People</p>
+            </li>
+        </ul>
+        <ul class="iconMenu">
+            <li>
+                <i class="fas fa-book menuIcon"></i>
+            </li>
+            <li>
+                <i class="fas fa-heart menuIcon"></i>
+            </li>
+            <li>
+                <i class="fas fa-sort-amount-up-alt menuIcon"></i>
+            </li>
+            <li>
+                <i class="fas fa-map-marked-alt menuIcon"></i>
+            </li>
+            <li>
+                <i class="fas fa-running menuIcon"></i>
+            </li>
+            <li>
+                <i class="fas fa-money-check-alt menuIcon"></i>
+            </li>
+            <li>
+                <i class="fas fa-network-wired menuIcon"></i>
+            </li>
+            <li>
+                <i class="fas fa-users menuIcon"></i>
+            </li>
+        </ul>
+    </aside>
+    <header>
+        <h1>Sometimes It’s Worth Taking A Different Path</h1>
+        <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores, fugiat.</h3>
+        <div class="buttonContainer">
+            <button class="getStartedBtn">Get Started</button>
+            <button class="">Learn More</button>
+        </div>
+        <div class="sideBox">
+            <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus, quos.</p>
+            <div class="buttonContainer">
+                <button class="acceptBtn">Accept</button>
+                <button class="">Decline</button>
+            </div>
+        </div>
+    </header>
+    <section class="firstSection">
+        <h1>Nostrum unde</h1>
+        <div class="cardContainer">
+            <div class="imageContainer">
+                <img src="./assets/images/stock(2).jpeg" alt="">
+            </div>
+            <div class="cardInfo">
+                <p>sit amet</p>
+                <p class="date">04/20/12</p>
+            </div>
+        </div>
+        <div class="cardContainer">
+            <div class="imageContainer">
+                <img src="./assets/images/stock(3).jpeg" alt="">
+            </div>
+            <div class="cardInfo">
+                <p>sit amet</p>
+                <p class="date">04/20/12</p>
+            </div>
+        </div>
+        <div class="cardContainer">
+            <div class="imageContainer">
+                <img src="./assets/images/stock(4).jpeg" alt="">
+            </div>
+            <div class="cardInfo">
+                <p>sit amet</p>
+                <p class="date">04/20/12</p>
+            </div>
+        </div>
+        <div class="cardContainer">
+            <div class="imageContainer">
+                <img src="./assets/images/stock(5).jpeg" alt="">
+            </div>
+            <div class="cardInfo">
+                <p>sit amet</p>
+                <p class="date">04/20/12</p>
+            </div>
+        </div>
+    </section>
+    <section class="secondSection">
+        <h1>Corrupti ea labore</h1>
+        <div class="left">
+            <div class="imageContainer">
+                <img src="./assets/images/stock(1).jpeg" alt="">
+            </div>
+        </div>
+        <div class="right">
+            <h2>Interactive Design</h2>
+            <h4>This is my strength</h4>
+            <p>Adding 3D illusions on your app/website adds interaction to the user and customers. I mostly do it in JS but can easily done with just CSS aswell. It's a quick and easy thing to do, and It gives move life to your project. Hover your mouse over the picture to check it out.</p>
+
+            <h4>Aliquam quidem</h4>
+            <p>Vero praesentium, dolorum sint unde provident commodi dignissimos laborum sed. Deserunt, aliquam quidem. Quos, dolorem quae ab quis iste officia asperiores.</p>
+        </div>
+    </section>
+    <section class="thirdSection">
+        <div class="thirdSectionCol-1">
+            <div class="left">
+                <h3><strong>Labore corporis</strong></h3>
+                <h1>Lorem ipsum dolor, sit amet consectetur ?</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut perferendis facilis facere distinctio consectetur veritatis, mollitia eligendi nobis iusto voluptate.</p>
+                <div class="user">
+                    <div class="userImage"></div>
+                    <div class="Info">
+                        <p><strong>Lord Tapulao</strong></p>
+                        <p class="date">02/24/21</p>
+                    </div>
+                    <div class="attributes">
+                        <p class="userType">
+                            UI/UX Developer
+                        </p>
+                        <i class="far fa-comment"></i>
+                        <p>420</p>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="user">
+                    <div class="userImage"></div>
+                    <div class="Info">
+                        <p><strong>David Ower</strong></p>
+                        <p class="date">02/22/21</p>
+                    </div>
+                    <div class="attributes">
+                        <p class="userType">
+                            The Boss
+                        </p>
+                        <i class="far fa-comment"></i>
+                        <p>123</p>
+                    </div>
+                </div>
+                <div class="user">
+                    <div class="userImage"></div>
+                    <div class="Info">
+                        <p><strong>John Doe</strong></p>
+                        <p class="date">02/27/21</p>
+                    </div>
+                    <div class="attributes">
+                        <p class="userType">
+                            Client
+                        </p>
+                        <i class="far fa-comment"></i>
+                        <p>69</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="fourthSection">
+        <h1>Lorem ipsum dolor sit amet</h1>
+        <div class="cols">
+            <div class="col-1">
+                <label for="">Name :</label>
+                <input type="text">
+            </div>
+            <div class="col-2">
+                <label for="">Email :</label>
+                <input type="text">
+            </div>
+            <div class="col-3">
+                <button>
+                    SUBSCRIBE
+                </button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="left">Code By: Lord Tapulao</div>
+        <div class="right">
+            <ul>
+                <li>
+                    <a href="facebook.com/ltapsy">
+                        <i class="fab fa-facebook-f fa-2x" style="color:#0066ff;"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:lordtapulao@gmail.com">
+                        <i class="far fa-envelope fa-2x" style="color:#d61e1e;"></i></li>
+                    </a>
+                <li>
+                    <a href="https://www.linkedin.com/in/lord-tapulao-730969195/">
+                        <i class="fab fa-linkedin-in fa-2x" style="color:#134ea5;"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+<script src="./assets/js/app.js"></script>
+</html>
+<!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eos alias blanditiis beatae nostrum unde soluta rem dolore ipsum ex, veritatis iusto corrupti ea labore corporis non nisi odit. Vero praesentium, dolorum sint unde provident commodi dignissimos laborum sed. Deserunt, aliquam quidem. Quos, dolorem quae ab quis iste officia asperiores. -->
