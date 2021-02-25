@@ -798,6 +798,7 @@ footer .right ul li{
 }
 
 @media only screen and (max-width: 650px) {
+
     .secondSection .right{
         padding:20px 0px 0 0px;
     }
@@ -839,6 +840,19 @@ footer .right ul li{
     .secondSection .left .imageContainer{
         width:300px;
         height:400px;
+        overflow: hidden;
+    }
+
+    .secondSection .left .imageContainer img{
+        transform: unset;
+        transition: unset;
+        filter: unset;
+    }
+
+    .secondSection .left .imageContainer img:hover{
+        transform: unset;
+        transition: unset;
+        filter: unset;
     }
 }
 
