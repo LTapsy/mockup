@@ -1,0 +1,122 @@
+
+nav{
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding:20px 0;
+    background:white;
+    z-index:5;
+    position: fixed;
+    width:100%;
+    filter: drop-shadow(0 10px 10px #0000002c);
+    border-bottom:5px solid #327e9c;
+}
+
+#menuBtn{
+    position: absolute;
+    right:17px;
+    top:30px;
+}
+
+.close{
+    opacity: 0;    
+    position: absolute;
+}
+
+#menuBtn i{
+    color:#327e9c;
+}
+
+nav ul{
+    flex-direction: row;
+    margin:0 30px 0 0;
+}
+
+nav ul li{
+    margin:0 0 0 20px;
+    color:#327e9c;
+    font-weight: bold;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li{
+    color:#327e9c;
+    transition: 0.5s;
+}
+
+nav ul li:hover{
+    color:#0ab0f1;
+    transition: 0.5s;
+}
+
+nav ul li .toggle{
+    margin:0 0 0 10px;
+    border:3px solid #496a77;
+    background:#65da78;
+    border-radius: 20px;
+    height:10px;
+    width:20px;
+    position:relative;
+}
+
+nav ul li .toggle .switch{
+    background:#ffffff;
+    height:10px;
+    width:10px;
+    border-radius: 10px;
+    position: absolute;
+    left:0px;
+    top:0;
+}
+
+.settingsDropDown{
+    position:fixed;
+    background:white;
+    border-bottom-left-radius: 20px;
+    height:0px;
+    width:0px;
+    padding:85px 0 0 30px;
+    right:0;
+    z-index: 3;
+    filter: drop-shadow(0 0 10px #00000031);
+    opacity: 0;
+    overflow: hidden;
+}
+
+.settingsDropDown{
+    position:fixed;
+    background:white;
+    border-bottom-left-radius: 20px;
+    height:0px;
+    width:0px;
+    padding:85px 0 0 30px;
+    right:0;
+    z-index: 3;
+    filter: drop-shadow(0 0 10px #00000031);
+    opacity: 0;
+    overflow: hidden;
+}
+
+.settingsDropDown .dropDownList li{
+    margin:0 0 10px 0;
+}
+
+.userDropDown{
+    position:fixed;
+    background:white;
+    border-bottom-left-radius: 20px;
+    height:0px;
+    width:0px;
+    padding:85px 0 0 30px;
+    right:0;
+    z-index: 3;
+    filter: drop-shadow(0 0 10px #00000031);
+    opacity: 0;
+    overflow: hidden;
+}
+
+.userDropDown .dropDownList li{
+    margin:0 0 10px 0;
+}

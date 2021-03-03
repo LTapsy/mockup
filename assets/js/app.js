@@ -80,11 +80,11 @@ var discussionValue = "0";
 function discussionBox(){
     if(discussionValue== "0"){
         document.querySelector('.discussionBox').style = "right:0px; transition:0.5s;";
-        document.querySelector('.tab').style = "transform:rotate(270px); transition:0.5s;";
+        document.querySelector('.tab i').style = "transform:rotate(180deg); transition:0.5s;";
         discussionValue++;
     }else{
         document.querySelector('.discussionBox').style = "right:-295px; transition:0.5s;";
-        document.querySelector('.tab').style = "transform:rotate(0deg); transition:0.5s;";
+        document.querySelector('.tab i').style = "transform:rotate(0deg); transition:0.5s;";
         document.querySelector('aside').style = "left:-250px;transition:0.5s;";
         document.querySelector('aside img').style = "opacity:0; transition:0.5s;";
         setTimeout(function(){ 

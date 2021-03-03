@@ -1,0 +1,68 @@
+
+aside{
+    overflow: hidden;
+    height:100vh;
+    width:300px;
+    position:fixed;
+    left:-250px;
+    width:300px;
+    padding:20px 0 0 0;
+    align-items: center;
+    background:#ffffff;
+    z-index:6;
+    filter: drop-shadow(0 0 10px #00000013);
+    overflow: hidden;
+}
+
+aside img{
+    width:200px;
+    opacity: 0;
+}
+
+aside .mainMenu{
+    margin:50px 0 0 0;
+    opacity: 0;
+}
+
+aside .mainMenu li{
+    flex-direction: row;
+    margin:0 0 20px 0;
+    width:200px;
+    align-items: center;
+    color:#327e9c;
+}
+
+aside .mainMenu li{
+    color:#327e9c;
+    transition: 0.5s;
+}
+
+aside .mainMenu li:hover{
+    color:#0ca9e7;
+    transition: 0.5s;
+}
+
+aside .mainMenu li i{
+    margin:0 10px 0 0;
+    width:20px;
+}
+
+
+aside .iconMenu{
+    margin:50px 5px 0 0;
+    padding:0;
+    position:absolute;
+    top:20px;
+    right:10px;
+    align-items: center;
+}
+
+aside .iconMenu li{
+    color:#327e9c;
+    margin:20px 0;
+}
+
+aside .iconMenu li i{
+    padding:0;
+    margin:0;
+}
