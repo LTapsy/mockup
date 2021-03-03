@@ -1,0 +1,53 @@
+Website or app
+
+Is this gonna be a desktop?
+
+What do you need for the pages?
+-Layout?
+-pages(OUR STORY, PURPOSE & VALUES , SUCCESS)
+
+Our Story
+Company Description
+-12 lines of text, 2-3 paragraphs.(what do you mean by pitch?)
+-Within this section we have an optional ‘Pitch’ which is effectively an elevator pitch of 1-2 sentence length.
+History
+-Timeline History  *How To Create a Timeline (w3schools.com)
+Company Facts
+-The third section Company Facts. Here there will be 6-10 facts about the company, such as revenues, production, total employees etc.
+
+Purpose & Values
+purpose statement
+-a few lines to a few paragraphs
+company values
+-Generally for companies this is in the range of 6-12 values.
+
+success
+-This is where companies will define their vison for success. It will be in the range of 8-12 goals. As an example, it could say :
+
+ 
+
+SUCCESS in 2024 will reflect:
+<then list 8-12 goals>
+Over time we intend to link these goals to roadmaps but the page can evolve this functionality at a later stage.
+
+How Do I log my hours?
+
+how many hours maximum?
+
+when is the deadline? no deadline
+
+to who do I send my timesheet?
+and when do I submit it? anytime you want, work anytime you can.
+
+quick consept only
+
+every 2 weeks payment
+
+Desktop Only.
+
+Log in page
+
+check in every 5 hours of work
+
+
+
