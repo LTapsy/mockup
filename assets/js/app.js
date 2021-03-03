@@ -17,7 +17,7 @@ function sideMenu(){
 
         sideMenuValue++;
     }else{
-        document.querySelector('aside').style = "left:-250px;transition:0.5s;";
+        document.querySelector('aside').style = "left:-150px;transition:0.5s;";
         document.querySelector('aside img').style = "opacity:0; transition:0.5s;";
         document.querySelector('.mainMenu').style = "opacity:0; transition:0.5s;";
         setTimeout(function(){ 
