@@ -5,6 +5,10 @@ body{
 header{
     margin-top:50px;
     background:#67aeca;
+    background:url(../images/story.jpg), #67aeca;
+    background-position:center;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
     height:40vh;
     justify-content: center;
     align-items: center;
@@ -12,30 +16,34 @@ header{
 
 header h1{
     color:white;
-    font-size: 40px;
+    font-size: 80px;
 }
+
+/* ////////////////////////////// */
 
 section.company{
     flex-direction: row;
-    filter: drop-shadow(0 -10px 10px #0000001a);
+    filter: drop-shadow(0 0px 10px #0000001a);
     background:white;
 }
 
 .ourCompany,.companyDescription{
     width:50%;
     justify-content: center;
-    /* align-items: center; */
 }
 
 .ourCompany{
     background:url(../images/company.jpg);
     background-size: cover;
-    background-position:center;
-    background-attachment: fixed;
+}
+
+.ourCompany:nth-child(2){
+    background:url(../images/story.jpg);
+    background-size: cover;
 }
 
 .companyDescription{
-    padding:60px 0px;
+    padding:80px 0px;
 }
 
 .companyDescription h1{
@@ -43,42 +51,198 @@ section.company{
     padding:0 20px 10px 0;
     border-bottom:4px solid #67aeca;
     
-    margin:0 40px;
+    margin:0 120px;
 
 }
 
 .companyDescription p{
     margin:20px 0 10px 0;
     width:600px;
-    padding:0 40px;
+    padding:0 100px;
 }
 
 .companyDescription p:nth-child(1){
     font-weight: bold;
 }
 
+/* /////////////////////////////////// */
+
+
+.pitch{
+    padding:0 150px;
+    height:60vh;
+    align-items: center;
+    justify-content: center;
+    background:  #bfdeeb;
+}
+
+.pitch h1{
+    font-size: 50px;
+    margin:20px 0;
+}
+
+.pitch p{
+    font-size: 30px;
+    text-align: center;
+}
+
+
+/* ////////////////////////////////// */
+
+.history{
+    position:relative;
+    align-items: center;
+    padding:100px 0;
+    background:linear-gradient(#ffffff, #67aeca 80%);
+}
+
+.historyTitle{
+    align-items: center;
+}
+
+.historyTitle img{
+    height: 250px;
+}
+
+.historyTitle .pageTitle{
+    font-size:50px;
+}
+
+.historyTitle p{
+    font-size:50px;
+    color:#5e9cb4;
+}
+
 .history ul{
     flex-direction: column;
     align-items: center;
     position: relative;
-    padding:50px 100px;
+    padding:60px 100px;
 }
 
 .history ul li{
-    width:100%;
-    border:1px solid red;
-    /* align-items: center; */
+    flex-direction: row;
+    align-items: center;
+    border-left:10px solid #67aeca;
+    padding:50px 0;
+}
+
+.history ul li i{
+    color:white;
+    background:#67aeca;
+    padding:10px;
+    border-radius: 50%;
+    position: relative;
+    left:-25px;
+
 }
 
 .history ul li .timeline{
-    border:1px solid blue;
-    padding:50px 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    width:500px;
+    background:white;
+    filter: drop-shadow(0 0 10px #00000050);
 }
 
-.history ul li:nth-child(even){
-    align-items: flex-end;
+.history ul li .timeline{
+    filter: drop-shadow(0 0 10px #00000054);
+    transition:0.5s;
+    transform: scale(1);
 }
 
-.history ul li:nth-child(odd){
-    align-items: flex-start;
+.history ul li .timeline:hover{
+    transition:0.5s;
+    transform: scale(1.02);
+    filter: drop-shadow(0 0 20px #00000034);
 }
+
+.timelineTitle{
+    background:#67aeca;
+    padding:50px 20px 20px 20px;
+}
+
+.timelineTitle h1{
+    color:white;
+}
+
+.timelineTitle p{
+    color:white;
+}
+
+.timelineDescription{   
+    padding:20px;
+}
+
+
+/* //////////////////////////////// */
+
+.facts{
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding:150px;
+}
+
+.facts .factsTitle{
+    font-size: 50px;
+    text-align: center;
+}
+
+.facts .factsDescription{
+    font-size: 30px;
+    width:900px;
+    text-align: center;
+    color:#67aeca;
+}
+
+.factsContainer{
+    margin-top:50px;
+    flex-direction: row;
+}
+
+.factsContainer .col-1,.factsContainer .col-2{
+    flex-direction: column;
+}
+
+.factsContainer .col-1 ul li{
+    justify-content: flex-end;
+}
+
+.factsContainer .col-1 ul li,.factsContainer .col-2 ul li{
+    flex-direction: row;
+    align-items: center;
+    /* border:1px solid red; */
+    padding:20px 0;
+    width:500px;
+}
+
+.factsContainer .col-1 ul li .factInfo h4{
+    text-align: end;
+}
+
+.factsContainer .col-1 ul li .factInfo p{
+    text-align: end;
+}
+
+.factInfo{
+    width:300px;
+}
+
+.factInfo h4{
+    font-size: 20px;
+}
+
+.factsContainer .col-1 ul li .icon,.factsContainer .col-2 ul li .icon{
+    background:#67aeca;
+    color:white;
+    border-radius: 50%;
+    width:100px;
+    height:100px;
+    margin:0 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* //////////////////////////////// */

@@ -1,0 +1,160 @@
+<!-- <section class="facts">
+        <h1>FACTS</h1>
+        <ul>
+            <li>
+                <h3>Lorem Ipsum</h3>
+                <p>Lorem ipsum dolor sit amet</p>
+            </li>
+            <li>
+                <h3>Dolor Sit</h3>
+                <p>Lorem ipsum dolor sit amet</p>
+            </li>
+            <li>
+                <h3>Amet Consectetur</h3>
+                <p>Lorem ipsum dolor sit amet</p>
+            </li>
+            <li>
+                <h3>Repudiandae eos</h3>
+                <p>Lorem ipsum dolor sit amet</p>
+            </li>
+            <li>
+                <h3>Blanditiis Beatae</h3>
+                <p>Lorem ipsum dolor sit amet</p>
+            </li>
+            <li>
+                <h3>Vero praesentiumm</h3>
+                <p>Lorem ipsum dolor sit amet</p>
+            </li>
+            <li>
+                <h3>Lorem Ipsum</h3>
+                <p>Lorem ipsum dolor sit amet</p>
+            </li>
+            <li>
+                <h3>Aliquam Quidem</h3>
+                <p>Lorem ipsum dolor sit amet</p>
+            </li>
+            <li>
+                <h3>Amet Consectetur</h3>
+                <p>Lorem ipsum dolor sit amet</p>
+            </li>
+        </ul>
+    </section> -->
+
+
+
+
+
+
+    
+
+/* .facts{
+    padding:100px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.facts h1{
+    font-size:50px;
+}
+
+.facts ul{
+    margin-top:40px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.facts ul li{
+    margin:20px;
+    height:350px;
+    width:250px;
+    padding:0 20px;
+    position: relative;
+    border-radius: 10px;
+    background-blend-mode: overlay;
+    background-size:cover;
+    background-position:center;
+    overflow: hidden;
+}
+
+.facts ul li:nth-child(1){
+    background:url(../images/facts/a.jpg),#00000056;
+}
+
+.facts ul li:nth-child(2){
+    background:url(../images/facts/b.jpg),#00000056;
+}
+
+.facts ul li:nth-child(3){
+    background:url(../images/facts/c.jpg),#00000056;
+}
+
+.facts ul li:nth-child(4){
+    background:url(../images/facts/d.jpg),#00000056;
+}
+
+.facts ul li:nth-child(5){
+    background:url(../images/facts/e.jpg),#00000056;
+}
+
+.facts ul li:nth-child(6){
+    background:url(../images/facts/f.jpg),#00000056;
+}
+
+.facts ul li:nth-child(7){
+    background:url(../images/facts/g.jpg),#00000056;
+}
+
+.facts ul li:nth-child(8){
+    background:url(../images/facts/h.jpg),#00000056;
+}
+
+.facts ul li:nth-child(9){
+    background:url(../images/facts/i.jpg),#00000056;
+}
+
+.facts ul li h3,.facts ul li p{
+    color:white;
+    position:absolute;
+}
+
+.facts ul li h3{
+    bottom:10px;
+}
+
+.facts ul li p{
+    bottom:-25px;
+}
+
+.facts ul li{
+    background-position-y: 0px;
+    transition: 0.5s;
+}
+
+.facts ul li:hover{
+    background-position-y: -10px;
+    transition: 0.5s;
+}
+
+.facts ul li h3{
+    bottom:10px;
+    transition:0.5s;
+}
+
+.facts ul li:hover h3{
+    bottom:100px;
+    transition:0.5s;
+}
+
+.facts ul li p{
+    bottom:-25px;
+    transition:0.5s;
+    opacity:0;
+}
+
+.facts ul li:hover p{
+    bottom:75px;
+    transition:0.8s;
+    opacity: 1;
+} */
