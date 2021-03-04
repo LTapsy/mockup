@@ -36,6 +36,11 @@ aside .mainMenu li{
     transition: 0.5s;
 }
 
+aside .mainMenu li a{
+    color:#327e9c;
+    transition: 0.5s;
+}
+
 aside .mainMenu li:hover{
     color:#0ca9e7;
     transition: 0.5s;
@@ -58,6 +63,11 @@ aside .iconMenu{
     top:20px;
     right:10px;
     align-items: center;
+}
+
+aside .iconMenu li a{
+    color:#327e9c;
+    margin:20px 0;
 }
 
 aside .iconMenu li{
