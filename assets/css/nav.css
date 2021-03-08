@@ -9,7 +9,7 @@ nav{
     position: fixed;
     width:100%;
     filter: drop-shadow(0 10px 10px #0000002c);
-    border-bottom:5px solid #327e9c;
+    border-bottom:5px solid #3b3b3b;
 }
 
 #menuBtn{
@@ -24,7 +24,7 @@ nav{
 }
 
 #menuBtn i{
-    color:#327e9c;
+    color:#3b3b3b;
 }
 
 nav ul{
@@ -34,7 +34,7 @@ nav ul{
 
 nav ul li{
     margin:0 0 0 20px;
-    color:#327e9c;
+    color:#3b3b3b;
     font-weight: bold;
     flex-direction: row;
     justify-content: center;
@@ -42,18 +42,18 @@ nav ul li{
 }
 
 nav ul li{
-    color:#327e9c;
+    color:#3b3b3b;
     transition: 0.5s;
 }
 
 nav ul li:hover{
-    color:#0ab0f1;
+    color:#3b3b3b;
     transition: 0.5s;
 }
 
 nav ul li .toggle{
     margin:0 0 0 10px;
-    border:3px solid #496a77;
+    border:3px solid #3b3b3b;;
     background:#65da78;
     border-radius: 20px;
     height:10px;

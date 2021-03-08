@@ -7,7 +7,7 @@ aside{
     width:200px;
     padding:20px 0 0 0;
     align-items: center;
-    background:#ffffff;
+    background:#474747;
     z-index:6;
     filter: drop-shadow(0 0 10px #00000013);
     overflow: hidden;
@@ -28,21 +28,21 @@ aside .mainMenu li{
     margin:0 0 20px 0;
     width:150px;
     align-items: center;
-    color:#327e9c;
+    color:#ffffff;
 }
 
 aside .mainMenu li{
-    color:#327e9c;
+    color:#ffffff;
     transition: 0.5s;
 }
 
 aside .mainMenu li a{
-    color:#327e9c;
+    color:#ffffff;
     transition: 0.5s;
 }
 
 aside .mainMenu li:hover{
-    color:#0ca9e7;
+    color:#ffffff;
     transition: 0.5s;
 }
 
@@ -66,16 +66,21 @@ aside .iconMenu{
 }
 
 aside .iconMenu li a{
-    color:#327e9c;
+    color:#ffffff;
     margin:20px 0;
 }
 
 aside .iconMenu li{
-    color:#327e9c;
+    color:#ffffff;
     margin:20px 0;
 }
 
 aside .iconMenu li i{
     padding:0;
     margin:0;
+}
+
+
+#menuBtn i{
+    color:#ffffff;
 }
