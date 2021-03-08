@@ -85,6 +85,8 @@ section.company{
     font-size: 30px;
     /* margin:20px 0; */
     border:8px solid #6e6e6e;
+    background:#6e6e6e;
+    color:white;
     width:600px;
     padding:30px 0;
     border-radius: 20px;
