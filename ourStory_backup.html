@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/webfonts/css/all.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/nav.css">
+    <link rel="stylesheet" href="assets/css/sidemenu.css">
+    <link rel="stylesheet" href="assets/css/discussion.css">
+    <link rel="stylesheet" href="assets/css/ourStory.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/mediaQueries.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="myUser" onclick="showUserSettings()">David Ower</li>
+            <li class="settings" onclick="showSettings()">Settings</li>
+            <li class="comments" onclick="turnOffComments()">
+                Comments
+                <div class="toggle">
+                    <div class="switch"></div>
+                </div>
+            </li>
+            <li>Logout</li>
+        </ul>
+    </nav>
+    <div class="settingsDropDown">
+            <ul class="dropDownList">
+                <li>
+                    Settings
+                </li>
+                <li>
+                    Users
+                </li>
+                <li>
+                    Styles
+                </li>
+                <li>
+                    Support
+                </li>
+                <li>
+                    About
+                </li>
+            </ul>
+    </div>
+    <div class="userDropDown">
+        <ul class="dropDownList">
+            <li>
+                Edit Profile
+            </li>
+            <li>
+                Change Password
+            </li>
+            <li>
+                Logout
+            </li>
+        </ul>
+    </div>  
+    <aside>
+        <div class="menu" id="menuBtn" onclick="sideMenu()">
+            <i class="fad fa-chevron-double-right hamb"></i>
+            <i class="fad fa-chevron-double-left close"></i>
+        </div>
+        <a href="index.html"><img src="./assets/images/Logo.png" alt=""></a>
+        <ul class="mainMenu">
+            <li>
+                <i class="fas fa-book menuIcon"></i>
+                <a href="ourStory.html"><p>Our Story</p></a>
+            </li>
+            <li>
+                <i class="fas fa-heart menuIcon"></i>
+                <p>Purpose & Values</p>
+            </li>
+            <li>
+                <i class="fas fa-sort-amount-up-alt menuIcon"></i>
+                <p>Success</p>
+            </li>
+            <li>
+                <i class="fas fa-map-marked-alt menuIcon"></i>
+                <p>Roadmaps</p>
+            </li>
+            <li>
+                <i class="fas fa-running menuIcon"></i>
+                <p>Sprints</p>
+            </li>
+            <li>
+                <i class="fas fa-money-check-alt menuIcon"></i>
+                <p>Investments</p>
+            </li>
+            <li>
+                <i class="fas fa-network-wired menuIcon"></i>
+                <p>Innovation</p>
+            </li>
+            <li>
+                <i class="fas fa-users menuIcon"></i>
+                <p>People</p>
+            </li>
+        </ul>
+        <ul class="iconMenu">
+            
+            <li>
+                <a href="ourStory.html"><i class="fas fa-book menuIcon"></i></a>
+            </li>
+            <li>
+                <i class="fas fa-heart menuIcon"></i>
+            </li>
+            <li>
+                <i class="fas fa-sort-amount-up-alt menuIcon"></i>
+            </li>
+            <li>
+                <i class="fas fa-map-marked-alt menuIcon"></i>
+            </li>
+            <li>
+                <i class="fas fa-running menuIcon"></i>
+            </li>
+            <li>
+                <i class="fas fa-money-check-alt menuIcon"></i>
+            </li>
+            <li>
+                <i class="fas fa-network-wired menuIcon"></i>
+            </li>
+            <li>
+                <i class="fas fa-users menuIcon"></i>
+            </li>
+        </ul>
+    </aside>
+    <div class="discussionBox">
+        <div class="tab" onclick="discussionBox()">
+            <i class="fas fa-chevron-left"></i>
+        </div>
+        <ul>
+            <li>
+                <div class="userImage"></div>
+                <p class="name"><strong>Lord Tapulao: </strong></p>
+                <p class="message">Hello World!</p>
+            </li>
+            <li>
+                <div class="userImage"></div>
+                <p class="name"><strong>Lord: </strong></p>
+                <p class="message">Is this the real life?</p>
+            </li>
+            <li>
+                <div class="userImage"></div>
+                <p class="name"><strong>Freddie: </strong></p>
+                <p class="message">Is this just fantasy?</p>
+            </li>
+            <li>
+                <div class="userImage"></div>
+                <p class="name"><strong>John: </strong></p>
+                <p class="message">Caught in a landslide</p>
+            </li>
+            <li>
+                <div class="userImage"></div>
+                <p class="name"><strong>Sam: </strong></p>
+                <p class="message">No escape from reality</p>
+            </li>
+            <li>
+                <div class="userImage"></div>
+                <p class="name"><strong>James: </strong></p>
+                <p class="message">Open your eyes</p>
+            </li>
+            <li>
+                <div class="userImage"></div>
+                <p class="name"><strong>Lily: </strong></p>
+                <p class="message">Look up to the skies and see</p>
+            </li>
+            <li>
+                <div class="userImage"></div>
+                <p class="name"><strong>Billy: </strong></p>
+                <p class="message">I'm just a poor boy</p>
+            </li>
+            <li>
+                <div class="userImage"></div>
+                <p class="name"><strong>Joe: </strong></p>
+                <p class="message">You need a job! LMAO</p>
+            </li>
+            <li>
+                <div class="userImage"></div>
+                <p class="name"><strong>Lord Tapulao: </strong></p>
+                <p class="message">Lol</p>
+            </li>
+            <li>
+                <div class="userImage"></div>
+                <p class="name"><strong>Lord Tapulao: </strong></p>
+                <p class="message">Haha</p>
+            </li>
+            <li>
+                <div class="userImage"></div>
+                <p class="name"><strong>Lord Tapulao: </strong></p>
+                <p class="message">ROFL!</p>
+            </li>
+            <li>
+                <div class="userImage"></div>
+                <p class="name"><strong>Lord Tapulao: </strong></p>
+                <p class="message">Im so tired.</p>
+            </li>
+        </ul>
+        <div class="messenger">
+            <input type="text">
+            <button>
+                <i class="fas fa-reply"></i>
+            </button>
+        </div>
+    </div>
+    <section class="company">
+        <div class="companyWrapper">
+            <i class="far fa-quote-left fa-3x"></i>
+            <p class="quote">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere neque quo a ipsam quos aliquid laudantium harum nam pariatur maxime iusto unde, quam voluptates est molestias! Et molestiae itaque dolor.
+            </p>
+            <i class="far fa-quote-right fa-3x"></i>
+        </div>
+    </section>
+    <div class="pitch">
+        <h1>Why Choose Us?</h1>
+        <p>It’s our attention to the small stuff, scheduling of timelines and keen project management that makes us stand out from the rest. We are creative, while keeping a close eye on the calendar and your budget.</p>
+    </div>
+    <section class="history">
+        <div class="historyTitle">
+            <h1>OUR HISTORY</h1>
+        </div>
+        <ul>
+            <div class="centerLine"></div>
+            <li>
+                <div class="timelineCircle"></div>
+                <div class="timeline">
+                    <div class="timelineTitle">
+                        <h3>Lorem Ipsum</h3>
+                        <p>Dec 20, 2020</p>
+                    </div>
+                    <p class="timelineDescription">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius voluptatibus quae eum obcaecati sapiente ab voluptatem reiciendis nobis ut odit dolores natus sunt recusandae labore, esse iusto unde sit eaque expedita porro debitis! Autem, assumenda! Neque exercitationem, aut totam doloremque iusto eum, quasi laudantium rem quaerat illum assumenda quam? Doloribus.</p>
+                </div>
+            </li>
+            <li>
+                <div class="timeline">
+                    <div class="timelineTitle">
+                        <h3>Lorem Ipsum</h3>
+                        <p>Dec 20, 2020</p>
+                    </div>
+                    <p class="timelineDescription">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius voluptatibus quae eum obcaecati sapiente ab voluptatem reiciendis nobis ut odit dolores natus sunt recusandae labore, esse iusto unde sit eaque expedita porro debitis! Autem, assumenda! Neque exercitationem, aut totam doloremque iusto eum, quasi laudantium rem quaerat illum assumenda quam? Doloribus.</p>
+                </div>
+                <div class="timelineCircle"></div>
+            </li>
+            <li>
+                <div class="timelineCircle"></div>
+                <div class="timeline">
+                    <div class="timelineTitle">
+                        <h3>Lorem Ipsum</h3>
+                        <p>Dec 20, 2020</p>
+                    </div>
+                    <p class="timelineDescription">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius voluptatibus quae eum obcaecati sapiente ab voluptatem reiciendis nobis ut odit dolores natus sunt recusandae labore, esse iusto unde sit eaque expedita porro debitis! Autem, assumenda! Neque exercitationem, aut totam doloremque iusto eum, quasi laudantium rem quaerat illum assumenda quam? Doloribus.</p>
+                </div>
+            </li>
+            <li>
+                <div class="timeline">
+                    <div class="timelineTitle">
+                        <h3>Lorem Ipsum</h3>
+                        <p>Dec 20, 2020</p>
+                    </div>
+                    <p class="timelineDescription">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius voluptatibus quae eum obcaecati sapiente ab voluptatem reiciendis nobis ut odit dolores natus sunt recusandae labore, esse iusto unde sit eaque expedita porro debitis! Autem, assumenda! Neque exercitationem, aut totam doloremque iusto eum, quasi laudantium rem quaerat illum assumenda quam? Doloribus.</p>
+                </div>
+                <div class="timelineCircle"></div>
+            </li>
+        </ul>
+    </section>
+    <section class="facts">
+        <h1 class="factsTitle">Company Facts</h1>
+        <p class="factsDescription">This is the sample dummy text. Insert your desired text here because this is just a lorem ipsum place holder.</p>
+        <div class="factsContainer">
+            <div class="col-1">
+                <ul>
+                    <li>
+                        <div class="factInfo">
+                            <h4>Lorem Ipsum</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt aliquam rem laboriosam inventore quam quod est qui reprehenderit quia perspiciatis.</p>
+                        </div>
+                        <div class="icon">
+
+                        </div>
+                    </li>
+                    <li>
+                        <div class="factInfo">
+                            <h4>Dolor sit</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt aliquam rem laboriosam inventore quam quod est qui reprehenderit quia perspiciatis.</p>
+                        </div>
+                        <div class="icon">
+                            <i class="fab fa-acquisitions-incorporated fa-4x"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="factInfo">
+                            <h4>Amet consectetur</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisi
+                            </p>
+                        </div>
+                        <div class="icon">
+                            <i class="fab fa-accessible-icon fa-4x"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="factInfo">
+                            <h4>Adipisicing</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisi est qui reprehenderit quia perspiciatis.</p>
+                        </div>
+                        <div class="icon">
+                            <i class="fab fa-accusoft fa-4x"></i>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-2">
+                <ul>
+                    <li>
+                        <div class="icon">
+                        </div>
+                        <div class="factInfo">
+                            <h4>Sunt aliquam</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt aliquam rem laboriosam inventore quam quod est qui reprehenderit quia perspiciatis.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon">
+                            <i class="fab fa-alipay fa-4x"></i>
+                        </div>
+                        <div class="factInfo">
+                            <h4>Laboriosam</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt aliquam rem laboriosam inventore quam quod est qui reprehenderit quia perspiciatis.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon">
+                            <i class="fab fa-angellist fa-4x"></i>
+                        </div>
+                        <div class="factInfo">
+                            <h4>Quia perspiciatis</h4>
+                            <p>Lorem ipsehenderit quia perspiciatis.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon">
+                            <i class="fab fa-angrycreative fa-4x"></i>
+                        </div>
+                        <div class="factInfo">
+                            <h4>Inventore quam</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt aliquam rem laboriosam inventore quam quod est qui reprehenderit quia perspiciatis.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="left">Coded By: Lord Tapulao</div>
+        <div class="right">
+            <ul>
+                <li>
+                    <a href="facebook.com/ltapsy">
+                        <i class="fab fa-facebook-f fa-2x" style="color:#0066ff;"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:lordtapulao@gmail.com">
+                        <i class="far fa-envelope fa-2x" style="color:#d61e1e;"></i></li>
+                    </a>
+                <li>
+                    <a href="https://www.linkedin.com/in/lord-tapulao-730969195/">
+                        <i class="fab fa-linkedin-in fa-2x" style="color:#134ea5;"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+<script src="./assets/js/app.js"></script>
+</html>
+<!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eos alias blanditiis beatae nostrum unde soluta rem dolore ipsum ex, veritatis iusto corrupti ea labore corporis non nisi odit. Vero praesentium, dolorum sint unde provident commodi dignissimos laborum sed. Deserunt, aliquam quidem. Quos, dolorem quae ab quis iste officia asperiores. -->

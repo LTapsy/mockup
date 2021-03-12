@@ -1,0 +1,54 @@
+aside {
+    background-color:rgb(54, 54, 54);
+    height:100%;
+    float: left;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    width: 190px;
+  }
+  
+  
+  .aside-footer {
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+  }
+
+  aside a, .aside-footer a {
+    /* display: block; Make the links appear below each other instead of side-by-side */
+    text-align: left; /* left-align text */
+    padding: 8px 0px 8px 12px; /* Sets padding of text */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: rgb(218, 218, 218); /* White text color */
+    font-size: 0.95em; /* Increased font-size */
+    font-weight: 400;
+    text-decoration: none;
+  }
+  
+  aside li, .aside-footer li {
+    background-color: rgb(65, 65, 65);
+  }
+  
+  aside li a:hover {
+    background-color: rgb(37, 37, 37); /* Add a hover color */
+    color: rgb(255, 255, 255) !important; /* White text color */
+    font-weight:500;
+  }
+
+  aside hr {
+    background-color:rgb(199, 199, 199);
+    height: 1px;
+    border: none;
+  
+  }
+  
+  aside i {
+    font-size: 17px !important;
+    font-weight: 300;
+    vertical-align: middle;
+  }
+
+  aside a{
+    flex-direction: row;
+  }
