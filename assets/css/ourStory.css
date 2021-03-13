@@ -21,7 +21,7 @@ section.company{
     filter: drop-shadow(0 0px 10px #0000001a);
     background:white;
     /* height:70vh; */
-    padding:250px 0;
+    padding:150px 0;
     justify-content: center;
     align-items: center;
 }
