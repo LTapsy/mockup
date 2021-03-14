@@ -34,9 +34,12 @@ body{
     justify-content: center;
 }
 
-
 .success .container .columns .column .card{
     width:400px;
+}
+
+.success .container .columns .column .card .card-content .content{
+    text-align: center;
 }
 
 /* ////////////////////////////// */
