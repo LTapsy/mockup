@@ -6,12 +6,45 @@ body{
 
 
 .header{
-    /* height:20vh; */
     padding:50px 0;
+    background:#6e6e6e;
 }
 
 .header h1{
+    font-size:30px;
     text-align: center;
+    color:white;
+}
+
+/* /////////////////////////////// */
+
+.success{
+    background:#f3f3f3;
+    padding:50px 100px;
+    width:100%;
+}
+
+.success .container .columns{   
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.success .container .columns .column{
+    display: flex;
+    justify-content: center;
+}
+
+
+.success .container .columns .column .card{
+    width:400px;
 }
 
 /* ////////////////////////////// */
+
+.info{
+    padding:20px;
+}
+
+.info span{
+    padding:0 0 0 10px;
+}
